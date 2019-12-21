@@ -1,6 +1,7 @@
 require "pry"
 
 def join_ingredients(src)
+<<<<<<< HEAD
   new_array = []
     index = 0
       while index < src.count do 
@@ -11,6 +12,23 @@ def join_ingredients(src)
         end
       new_array
     end
+=======
+  binding.pry
+  new_array = {}
+  "I love [index][0][0] and [index[0][1] on my pizza"
+  return
+  
+  
+  
+  # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
+  #
+  # Build a new Array that contains strings where each pair of foods is
+  # inserted into this template:
+  #
+  # "I love (inner array element 0) and (inner array element 1) on my pizza""
+  # As such, there should be a new String for each inner array, or pair
+end
+>>>>>>> 5cbfb2f50b705429b9ff4462be498289bfd0bb00
 
 def find_greater_pair(array_2)
   new_array = []
